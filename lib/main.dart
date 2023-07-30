@@ -78,13 +78,13 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        title: const Text(
-          'Calculator',
-          style: TextStyle(fontSize: 50),
-        ),
-        backgroundColor: Colors.black,
-      ),
+      // appBar: AppBar(
+      //   title: const Text(
+      //     'Calculator',
+      //     style: TextStyle(fontSize: 50),
+      //   ),
+      //   backgroundColor: Colors.black,
+      // ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 5),
         child: Column(
@@ -102,7 +102,7 @@ class _CalculatorState extends State<Calculator> {
                       text,
                       textAlign: TextAlign.left,
                       style:
-                          const TextStyle(color: Colors.white, fontSize: 100),
+                          const TextStyle(color: Colors.white, fontSize: 125),
                     ),
                   )
                 ],
@@ -207,12 +207,16 @@ class _CalculatorState extends State<Calculator> {
                       calculation("0");
                     },
                     child: Container(
-                      padding: EdgeInsets.fromLTRB(40, 20, 100, 10),
+                      padding: EdgeInsets.fromLTRB(42, 20, 100, 10),
                       alignment: Alignment.center,
                       decoration: const BoxDecoration(shape: BoxShape.circle),
                       child: Text(
                         "0",
-                        style: TextStyle(fontSize: 36, color: Colors.white),
+                        style: TextStyle(fontSize: 36,
+                        color: Colors.white,
+                      
+                        ),
+                        textAlign: TextAlign.left,
                       ),
                     )),
 
@@ -278,13 +282,13 @@ class _CalculatorState extends State<Calculator> {
         finalResult = sub();
       } else if (preOpr == 'x') {
         finalResult = mul();
-      } else if (preOpr == '/') {
+      } else if (preOpr == '÷') {
         finalResult = div();
       }
     } else if (btnText == '+' ||
         btnText == '-' ||
         btnText == 'x' ||
-        btnText == '/' ||
+        btnText == '÷' ||
         btnText == '=') {
       if (numOne == 0) {
         numOne = double.parse(result);
@@ -298,7 +302,7 @@ class _CalculatorState extends State<Calculator> {
         finalResult = sub();
       } else if (opr == 'x') {
         finalResult = mul();
-      } else if (opr == '/') {
+      } else if (opr == '÷') {
         finalResult = div();
       }
       preOpr = opr;
