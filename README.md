@@ -87,6 +87,7 @@ This project is licensed under the MIT License.
 For any inquiries or feedback, please contact the project maintainer:
 
 Your Name Email: [rajchaudhari2528@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rajchaudhari2528@gmail.com) 
+
 LinkedIn: [Prasad Chaudhari](https://www.linkedin.com/in/prasad-chaudhari-45b975228/)
 
 Feel free to reach out for any questions or collaborations.
