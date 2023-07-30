@@ -20,7 +20,7 @@ This is a simple iPhone calculator app developed using Flutter, designed to rese
 
 - A keyboard sound same as iOS Calculator
 
-- Given slightly different sound for recognizing different buttons.
+- Given slightly different sound to some buttons for recognizing different buttons.
 
 - Smooth and responsive user interface.
 
@@ -30,9 +30,9 @@ This is a simple iPhone calculator app developed using Flutter, designed to rese
 
   
 
-![Screenshot 1](cal1.png)
+![Screenshot 1](cal1.JPG)
 
-![Screenshot 2](cal2.png)
+![Screenshot 2](cal2.JPG)
 
   
 
@@ -68,7 +68,7 @@ To run the app on your device, follow these steps:
 
 flutter pub get
 ```
-6. Run the main.dart file and get your iPhone calculator ready!!!
+6. Run the main.dart file and get your iPhone calculator is ready!
   ## Usage
 
 -   Launch the app on your device.
@@ -88,7 +88,7 @@ This project is licensed under the [MIT License](https://chat.openai.com/LICENSE
 
 For any inquiries or feedback, please contact the project maintainer:
 
-Your Name Email: [rajchaudhari2528@gmail.com](mailto:rajchaudhari2528@gmail.com) 
+Your Name Email: [rajchaudhari2528@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rajchaudhari2528@gmail.com) 
 LinkedIn: [Prasad Chaudhari](https://www.linkedin.com/in/prasad-chaudhari-45b975228/)
 
 Feel free to reach out for any questions or collaborations.
