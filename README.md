@@ -28,12 +28,10 @@ This is a simple iPhone calculator app developed using Flutter, designed to rese
 
 ## Screenshots
 
-  
-
-![Screenshot 1](cal1.JPG)
-
-![Screenshot 2](cal2.JPG)
-
+<p align="center">
+  <img src="cal1.JPG" alt="Screenshot 1" width="300">
+  <img src="cal2.JPG" alt="Screenshot 2" width="300">
+</p>
   
 
 ## Installation
@@ -82,7 +80,7 @@ Contributions to this project are welcome. If you encounter any bugs, have sugge
 
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/LICENSE).
+This project is licensed under the MIT License.
 
 ## Contact
 
